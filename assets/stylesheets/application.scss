@@ -9,6 +9,7 @@ body {
   display: flex;
   .cities {
     width: 30%;
+    cursor: pointer;
   }
   .active-city {
     width: 70%;

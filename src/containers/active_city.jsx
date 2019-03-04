@@ -14,6 +14,8 @@ class ActiveCity extends Component {
       const url = `https://kitt.lewagon.com/placeholder/cities/${this.props.activeCity.slug}`;
       return (
         <div className="active-city">
+          <h3>{this.props.activeCity.name}</h3>
+          <p>{this.props.activeCity.address}</p>
           <img src={url} />
         </div>
       );
